@@ -25,11 +25,22 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 gem 'listen'
+gem 'pg'
+
+gem 'pry'
+gem 'pry-nav'
+gem 'pry-rails'
+gem 'pry-remote'
+
+gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'devise'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'grape'
+gem 'grape-entity'
+gem 'grape_on_rails_routes'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
